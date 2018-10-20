@@ -51,7 +51,8 @@ def find_cool(array)
 end
 
 def organized_schools(schools)
-  schools.each{|e,v|}
+  schools.each{|e,v|
+  puts e,v}
 end
 #puts merge_data(
 #[{:first_name => "blake"},
