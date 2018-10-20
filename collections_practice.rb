@@ -39,6 +39,7 @@ def merged_data(keys,data)
   data[0].each{|e,v|
   i = keys.index{|key| key[:first_name]==e}
   keys[i][:awesomeness]=v
+  puts keys[i]
 
 }
 
