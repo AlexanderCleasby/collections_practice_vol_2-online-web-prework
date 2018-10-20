@@ -32,7 +32,7 @@ def count_elements(array)
 end
 
 def merged_data(keys,data)
-  keys.map{|e| puts e.keys}
+  keys.map{|e| e.keys}
 end
 puts merged_data(
 [{:first_name => "blake"},
