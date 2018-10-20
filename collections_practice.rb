@@ -62,7 +62,7 @@ def organize_schools(schools)
   }
   locations
 end
-puts organized_schools(
+puts organize_schools(
 {
   "flatiron school bk" => {
     :location => "NYC"
