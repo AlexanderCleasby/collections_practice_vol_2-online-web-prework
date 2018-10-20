@@ -51,6 +51,7 @@ def find_cool(array)
 end
 
 def organized_schools(schools)
+  locations = {}
   schools.each{|e,v|
   puts e}
 end
