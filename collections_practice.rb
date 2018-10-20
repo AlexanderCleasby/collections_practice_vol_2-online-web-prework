@@ -36,7 +36,7 @@ def merged_data(keys,data)
   #data.map{|e| e.values}
   #keys.map{|e,i| data[e[:first_name]]}
   out = []
-  data[0].each{|e,v| outs.}
+  #data[0].each{|e,v| outs.push({:})}
 
 end
 puts merged_data(
