@@ -49,6 +49,10 @@ def find_cool(array)
   array.delete_if{|e|e[:temperature]!="cool"}
   array
 end
+
+def organized_schools(schools)
+
+end
 #puts merge_data(
 #[{:first_name => "blake"},
 #  {:first_name=>"ashley"}],
