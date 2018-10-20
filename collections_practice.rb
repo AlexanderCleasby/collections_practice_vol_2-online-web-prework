@@ -54,6 +54,7 @@ def organized_schools(schools)
   locations = {:NYC=>[]}
   schools.each{|e,v|
   puts v[:location]
+  puts locations
   if locations.has_key?(v[:location])
     puts e
   end
