@@ -51,7 +51,7 @@ def find_cool(array)
 end
 
 def organized_schools(schools)
-  locations = {:NYC=>[]}
+  locations = {"NYC"=>[]}
   schools.each{|e,v|
   puts v[:location]
   puts locations
