@@ -56,6 +56,8 @@ def organized_schools(schools)
 
   if locations.has_key?(v[:location])
     locations[v[:location]].push(e)
+  else
+    locations[v[:location]]=[e]
   end
   }
   locations
