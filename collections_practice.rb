@@ -55,7 +55,7 @@ def organized_schools(schools)
   schools.each{|e,v|
 
   if locations.has_key?(v[:location])
-    puts e
+    locations[v[:location]].push(e)
   end
   }
 end
