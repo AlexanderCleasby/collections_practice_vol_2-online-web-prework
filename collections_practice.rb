@@ -46,7 +46,7 @@ def merge_data(keys,data)
 end
 
 def find_cool(array)
-  array.delete_if{|e|e[:temperature]="cool"}
+  array.delete_if{|e|e[:temperature]=="cool"}
 end
 #puts merge_data(
 #[{:first_name => "blake"},
