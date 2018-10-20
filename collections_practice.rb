@@ -58,8 +58,9 @@ def organized_schools(schools)
     locations[v[:location]].push(e)
   end
   }
+  locations
 end
-organized_schools(
+puts organized_schools(
 {
   "flatiron school bk" => {
     :location => "NYC"
