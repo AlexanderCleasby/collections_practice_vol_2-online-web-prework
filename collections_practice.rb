@@ -52,7 +52,7 @@ end
 
 def organized_schools(schools)
   schools.each{|e,v|
-  puts e,v}
+  puts v}
 end
 #puts merge_data(
 #[{:first_name => "blake"},
