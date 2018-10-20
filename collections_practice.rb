@@ -40,7 +40,7 @@ def merged_data(keys,data)
   i = keys.index{|key| key[:first_name]==e}
   keys[i][:awesomeness]=v[:awesomeness]
   keys[i][:height]=v[:height]
-  keys[i][:last_name]=v[last_name]
+  keys[i][:last_name]=v[:last_name]
   puts keys[i]
 
 }
