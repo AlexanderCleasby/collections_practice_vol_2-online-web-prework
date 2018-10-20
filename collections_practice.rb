@@ -54,7 +54,28 @@ def organized_schools(schools)
   schools.each{|e,v|
   puts v}
 end
-organized_schools(schools)
+organized_schools(
+{
+  "flatiron school bk" => {
+    :location => "NYC"
+  },
+  "flatiron school" => {
+    :location => "NYC"
+  },
+  "dev boot camp" => {
+    :location => "SF"
+  },
+  "dev boot camp chicago" => {
+    :location => "Chicago"
+  },
+  "general assembly" => {
+    :location => "NYC"
+  },
+  "Hack Reactor" => {
+    :location => "SF"
+  }
+}
+)
 
 
 #puts merge_data(
