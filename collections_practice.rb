@@ -34,6 +34,20 @@ end
 def merged_data(keys,data)
   keys.each{|e| puts e.keys}
 end
-puts merged_data([{:first_name => "blake"},{:first_name=>"ashley"}],[])
+puts merged_data(
+[{:first_name => "blake"},
+  {:first_name=>"ashley"}],
+  [{"blake" => {
+              :awesomeness => 10,
+                   :height => "74",
+                :last_name => "johnson"
+          },
+          "ashley" => {
+              :awesomeness => 9,
+                   :height => 60,
+                :last_name => "dubs"
+          }
+      }
+  ])
 #puts count_elements([{:name => "blake"}, {:name => "blake"}, {:name => "ashley"}])
 #binding.pry
