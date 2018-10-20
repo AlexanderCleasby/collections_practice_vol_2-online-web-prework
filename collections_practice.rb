@@ -41,9 +41,8 @@ def merged_data(keys,data)
   keys[i][:awesomeness]=v[:awesomeness]
   keys[i][:height]=v[:height]
   keys[i][:last_name]=v[:last_name]
-  puts keys[i]
-
-}
+  }
+  keys
 
 
 end
