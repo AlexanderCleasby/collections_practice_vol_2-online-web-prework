@@ -53,7 +53,10 @@ end
 def organized_schools(schools)
   locations = {}
   schools.each{|e,v|
-  puts e}
+  if locations.has_key(v[:location])
+    puts e
+  end
+  }
 end
 organized_schools(
 {
