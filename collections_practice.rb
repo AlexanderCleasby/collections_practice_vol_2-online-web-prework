@@ -43,8 +43,6 @@ def merge_data(keys,data)
   keys[i][:last_name]=v[:last_name]
   }
   keys
-
-
 end
 #puts merge_data(
 #[{:first_name => "blake"},
