@@ -32,7 +32,8 @@ def count_elements(array)
 end
 
 def merged_data(keys,data)
-  keys.keys
+  keys.each{|e| puts e.keys}
 end
+puts merged_data([{:first_name => "blake"},{:first_name=>"ashley"}])
 #puts count_elements([{:name => "blake"}, {:name => "blake"}, {:name => "ashley"}])
 #binding.pry
